@@ -1,14 +1,14 @@
 {
-  "name": "webapck",
-  "version": "1.0.0",
-  "description": "",
+  "name": "{{ name }}",
+  "version": "{{ version }}",
+  "description": "{{ descripton }}",
   "main": "index.js",
   "scripts": {
     "prod": "webpack --env=prod",
     "start": "webpack-dev-server --env=dev --host 0.0.0.0"
   },
   "keywords": [],
-  "author": "",
+  "author": "{{ author }}",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.5.4",
